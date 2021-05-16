@@ -6,7 +6,6 @@ Tiny module that validates HTML inputs without any unnecessary overcomplicated f
 
 ## How do I use this?
 
-            ```
             var inputVal = dsijak.newInputValidator(document.getElementById('elementId').value);
             inputVal.configure({
                 validateTable: 'ABCDEFabcdef1234567890',  //this is string of allowed chars
@@ -28,8 +27,6 @@ Tiny module that validates HTML inputs without any unnecessary overcomplicated f
             inputVal.configure({
                 isEmail: true,
             });
-            ```
-
 
 ## What this module can do?
 
